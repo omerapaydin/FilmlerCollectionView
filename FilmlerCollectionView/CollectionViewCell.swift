@@ -9,4 +9,10 @@ import UIKit
 
 class CollectionViewCell: UICollectionViewCell {
     
+    @IBOutlet weak var fiyatLabel: UILabel!
+    @IBOutlet weak var isimLabel: UILabel!
+    @IBOutlet weak var filmImage: UIImageView!
+    
+    @IBAction func tikla(_ sender: Any) {
+    }
 }
